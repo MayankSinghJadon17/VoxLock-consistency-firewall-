@@ -1,0 +1,36 @@
+[project]
+name = "voiceguard"
+version = "0.1.0"
+description = "Consistency firewall for interruption-safe voice agents."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+livekit = [
+  "livekit-agents>=1.5,<2",
+  "python-dotenv>=1.0,<2",
+]
+rime = [
+  "websockets>=15,<16",
+  "httpx>=0.28,<1",
+]
+dev = [
+  "pytest>=8,<9",
+  "pytest-asyncio>=0.25,<1",
+]
+
+[project.scripts]
+voiceguard = "voiceguard.cli:main"
+benchmark = "voiceguard.benchmark:main"
+rime-preflight = "scripts.rime_preflight:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["voiceguard*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
