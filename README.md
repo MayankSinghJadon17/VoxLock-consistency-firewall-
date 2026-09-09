@@ -3,7 +3,7 @@
 > VoxLock is a consistency firewall for voice agents that tracks what the user actually heard, not just what the system generated, and guarantees no superseded work becomes spoken reality.
 
 # Architecture
-![VoxLock Architecture](System_Architecture.png)
+![VoxLock Architecture](/System_Architecture.png)
 
 ## The problem
 
