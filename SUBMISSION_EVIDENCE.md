@@ -1,4 +1,4 @@
-VOICEGUARD
+VOXLOCK
 
 ==========
 
@@ -404,7 +404,7 @@ ARCHITECTURE EVIDENCE
 
 
 
-Core VoiceGuard logic:
+Core VoxLock logic:
 
 
 
@@ -432,7 +432,7 @@ LiveKit is responsible for transport/audio interruption.
 
 
 
-VoiceGuard independently handles:
+VoxLock independently handles:
 
 
 
@@ -585,3 +585,4 @@ Verified benchmark claims:
 
 
 Do not claim median/p95 latency unless a new benchmark explicitly measures it.
+
