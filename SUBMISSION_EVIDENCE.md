@@ -460,7 +460,7 @@ REPOSITORY EVIDENCE MAP
 
 voiceguard/
 
-&#x20;   Core VoiceGuard logic
+&#x20;   Core VoxLock logic
 
 &#x20;   LiveKit integration
 
