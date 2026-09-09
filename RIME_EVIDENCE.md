@@ -1,8 +1,8 @@
 # Rime Evidence
 
-## VoiceGuard Rime Integration
+## VoxLock Rime Integration
 
-VoiceGuard uses Rime as the primary spoken-output path.
+VoxLock uses Rime as the primary spoken-output path.
 
 ### Production Configuration
 
