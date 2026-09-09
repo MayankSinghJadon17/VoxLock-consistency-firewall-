@@ -31,5 +31,3 @@ STALE AUDIO
 
 
 
-
-<img width="1206" height="768" alt="Gemini_Generated_Image_doxz7pdoxz7pdoxz" src="https://github.com/user-attachments/assets/bb551cc1-ac40-4aae-9e28-d21138747766" />
