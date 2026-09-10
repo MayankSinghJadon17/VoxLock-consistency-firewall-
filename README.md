@@ -4,6 +4,10 @@
 
 GitHub: https://github.com/MayankSinghJadon17/VoxLock-consistency-firewall-.git
 
+## Architecture
+
+![System__Architecture](docs/Architecture.png)
+
 ## Problem
 
 Voice agents have a consistency problem: a user can change their mind while an agent is still computing or speaking an older request. If stale computation reaches the speaker, the user can hear something they no longer asked for.
